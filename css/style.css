@@ -1,1 +1,9 @@
-/* Add the website's styles here. */
+.body {
+   background-color: #1f2ce4;
+}
+.header {
+   background-color: #f2f3f7;
+   color: #1f2ce4;
+   padding: 20px;
+   text-align: center;
+}
