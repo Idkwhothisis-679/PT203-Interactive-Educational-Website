@@ -1,16 +1,33 @@
 .body {
-   background-color: #1f2ce4;
+   background-color: #434d949a;
 }
 .header {
    background-color: #f2f3f7;
-   color: #315994;
+   color: #040405;
    padding: 20px;
    text-align: center;
 } 
 .header2 {
    background-color: #f2f3f7;
-   color: #315994;
+   color: #040405;
    padding: 20px;
-   text-align: left;
+   text-align: center;
 
+}
+.nav-link{  
+   color: #221e1e;
+   padding: 10px;
+   width: 400px;
+   margin: 2px 2px;
+   background-color: #ffffff;
+   text-align: center;
+   position: relative;
+   font-family: 'Courier New', Courier, monospace;
+   transition: background-color 0.9s ease, color 0.9s ease, text-decoration 0.9s ease;
+}
+.nav-link:hover{
+   background-color: #3a3838b9;
+   color: #ebe7e7;
+   text-decoration: overline;
+   font-family: 'Courier New', Courier, sans-serif;
 }
