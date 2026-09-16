@@ -1,5 +1,5 @@
 .body {
-   background-color: #434d949a;
+   background-color: #141520da;
 }
 .header {
    background-color: #f2f3f7;
@@ -8,7 +8,7 @@
    text-align: center;
 } 
 .header2 {
-   background-color: #f2f3f7;
+   background-color: #e8e9ee;
    color: #040405;
    padding: 20px;
    text-align: center;
@@ -30,4 +30,11 @@
    color: #ebe7e7;
    text-decoration: overline;
    font-family: 'Courier New', Courier, sans-serif;
+}
+.header-title {
+   font-size: 01.58em;
+   font-weight: bold;
+   margin: 0;
+   color: #040405;
+   text-align: left;
 }
