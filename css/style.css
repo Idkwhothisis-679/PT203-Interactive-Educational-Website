@@ -35,6 +35,89 @@
    font-size: 01.58em;
    font-weight: bold;
    margin: 0;
-   color: #040405;
+   color: #141520;
+   font-family: 'Courier New', Courier, monospace;
    text-align: left;
+}
+
+.hero-header {
+   padding: 36px 24px;
+   background-color: #202334;
+   color: #f2f3f7;
+   text-align: center;
+}
+
+.hero-header h2 {
+   margin: 8px 0;
+   font-size: 2rem;
+}
+
+.hero-header p {
+   margin: 8px auto;
+   max-width: 700px;
+   line-height: 1.5;
+}
+
+.enrollment-message {
+   color: #c8cad5;
+   font-weight: bold;
+   letter-spacing: 0.08em;
+   text-transform: uppercase;
+}
+
+.home-content {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 70px 24px;
+}
+
+.home-sections {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   overflow: hidden;
+   border: 1px solid #303349;
+   border-radius: 8px;
+   background-color: #202334;
+}
+
+.info-card {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+   flex: 1 1 180px;
+   min-height: 60px;
+   padding: 16px 20px;
+   border-right: 1px solid #303349;
+   color: #f2f3f7;
+   font-family: 'Courier New', Courier, monospace;
+   text-align: center;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.info-description {
+   margin-top: 6px;
+   color: #c8cad5;
+   font-family: Arial, sans-serif;
+   font-size: 0.8rem;
+   font-weight: normal;
+}
+
+.info-card:hover,
+.info-card:focus-visible {
+   background-color: #2b2e43;
+   color: #ffffff;
+}
+
+@media (max-width: 520px) {
+   .home-content {
+      padding: 40px 16px;
+   }
+
+   .info-card {
+      flex-basis: 50%;
+      border-bottom: 1px solid #303349;
+   }
 }
